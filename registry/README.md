@@ -16,8 +16,9 @@ WARNING:
 
 # Supported tags and respective `Dockerfile` links
 
--	[`2.6.2`, `2.6`, `2`, `latest` (*Dockerfile*)](https://github.com/docker/distribution-library-image/blob/15dbd1a011dbda8da055d6cea8bc1e7705c32ead/Dockerfile)
--	[`2.5.2`, `2.5` (*Dockerfile*)](https://github.com/docker/distribution-library-image/blob/f96d9029112d8da459312fb8249802bc4ec6ac21/Dockerfile)
+**No supported tags found!**
+
+It is very likely that `registry` does not support the currently selected architecture (`arm64v8`).
 
 # Quick reference
 
@@ -54,7 +55,7 @@ This image contains an implementation of the Docker Registry HTTP API V2 for use
 ## Run a local registry: Quick Version
 
 ```console
-$ docker run -d -p 5000:5000 --restart always --name registry registry:2
+$ docker run -d -p 5000:5000 --restart always --name registry arm64v8/registry:2
 ```
 
 Now, use it from within Docker:
