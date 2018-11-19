@@ -19,6 +19,8 @@ WARNING:
 -	[`2.6.2`, `2.6`, `2`, `latest` (*Dockerfile*)](https://github.com/docker/distribution-library-image/blob/15dbd1a011dbda8da055d6cea8bc1e7705c32ead/Dockerfile)
 -	[`2.5.2`, `2.5` (*Dockerfile*)](https://github.com/docker/distribution-library-image/blob/f96d9029112d8da459312fb8249802bc4ec6ac21/Dockerfile)
 
+[![Build Status](https://doi-janky.infosiftr.net/job/multiarch/job/amd64/job/registry/badge/icon) (`amd64/registry` build job)](https://doi-janky.infosiftr.net/job/multiarch/job/amd64/job/registry/)
+
 # Quick reference
 
 -	**Where to get help**:  
@@ -54,7 +56,7 @@ This image contains an implementation of the Docker Registry HTTP API V2 for use
 ## Run a local registry: Quick Version
 
 ```console
-$ docker run -d -p 5000:5000 --restart always --name registry registry:2
+$ docker run -d -p 5000:5000 --restart always --name registry amd64/registry:2
 ```
 
 Now, use it from within Docker:
