@@ -16,8 +16,9 @@ WARNING:
 
 # Supported tags and respective `Dockerfile` links
 
--	[`server-0.6.1`, `server` (*notary-server/Dockerfile*)](https://github.com/docker/notary-official-images/blob/6db20782a52c71a48e33a9f075ba632054c0112d/notary-server/Dockerfile)
--	[`signer-0.6.1`, `signer` (*notary-signer/Dockerfile*)](https://github.com/docker/notary-official-images/blob/6db20782a52c71a48e33a9f075ba632054c0112d/notary-signer/Dockerfile)
+**No supported tags found!**
+
+It is very likely that `notary` does not support the currently selected architecture (`windows-amd64`).
 
 # Quick reference
 
